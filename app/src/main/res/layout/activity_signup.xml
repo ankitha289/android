@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+tools:context=".signup">
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    app:srcCompat="@drawable/_5_754395_transparent_login_icons_png_business_user_png_download" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="125dp"
+    android:layout_marginTop="60dp"
+    android:fontFamily="sans-serif-black"
+    android:text="SIGN UP"
+    android:textColor="@color/black"
+    android:textSize="32dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="USERNAME"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:id="@+id/username"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#D9E3E2" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="PASSWORD"
+        android:textColor="@color/black"
+        android:textSize="28dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
+        android:id="@+id/password"
+        android:paddingLeft="8dp"
+        android:background="#D9E3E2"
+        />
+</LinearLayout>
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="#31D5C5"
+    android:layout_marginTop="20dp"
+    android:text="Register"
+    android:layout_marginLeft="100dp"
+    android:id="@+id/register"
+    android:textColor="@color/black"
+    android:textSize="22dp"
+    app:backgroundTint="#64E1D5" />
+
+</LinearLayout>
